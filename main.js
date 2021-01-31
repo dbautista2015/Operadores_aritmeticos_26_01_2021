@@ -2,7 +2,7 @@
 
 let nombre = "Diana Patricia";
 let edad = 37;
-let altura = 1.60;
+let altura = 1.63;
 let profesor = false;
 
 // Primara manera de concatenar
@@ -45,12 +45,13 @@ console.log(`${nombre} ${edad}`);//Usando las comillas Backticks podemos
 
 //Operación de decremento
 let x = 10;
+//x -= 2; cuando se quiere incrementar de dos en dos o más
 x--;
 console.warn("Operacion de decremento", x);
 
 //Operación de división
 let u=10;
-
+// u/2; 
 console.warn(`Operación de división ${u/2} valor inicial ${u}`);
 
 //Operación de exponenciación
@@ -84,9 +85,10 @@ console.warn(`Operación resta ${g-2} valor inicial ${g}`);
 
 //Operacion de unaria negativo
 let p = 10;
+//let v =-p;
 console.warn(`Operacion de unaria negativo ${-p}`);
 
-//Operacion de unaria plus
+//Operacion de unaria más (plus)
 
 let f = 10;
 console.warn(`Operacion de unaria más ${+f}`);
